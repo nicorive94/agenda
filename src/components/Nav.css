@@ -1,0 +1,27 @@
+nav{
+    margin-top: 5px;
+    height: 35px;
+    display: flex;
+    background: #4e4d4d;
+    justify-content: space-between;
+}
+
+.titulo{
+    margin: 7px;
+    color: white
+}
+
+.logout{
+    width: auto;
+    padding: 7px;
+    margin-right: 5px;
+    background: #017bab;
+    border: 3px solid #017bab;
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.logout:hover{
+    border-bottom:3px solid black ;
+    border-right:3px solid black ;
+}
