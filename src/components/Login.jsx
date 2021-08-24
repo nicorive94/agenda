@@ -35,11 +35,11 @@ function Login({login, registrarse, logueado}) {
                                     if(boton === "reg"){
                                         registrarse(log.usuario, log.contraseña)
                                     } 
-                                    }}>
-                        <h3>Log in</h3> 
+                                    }} style={{width: "300px"}}>
+                        <h3>Bievenida</h3> 
                         <input className="controls"  placeholder="Usuario:" type="email" name="usuario" id="usuario" onChange={handleInputChangelog}/>
                         <input className="controls" type="password" placeholder="Contraseña:" name="contraseña" id="contraseña" onChange={handleInputChangelog} />
-                        <button className="button" type="submit" onClick={()=>{loguear()}} >Log in</button>
+                        <button className="button" type="submit" onClick={()=>{loguear()}} >Iniciar sesión</button>
                         <button className="button" type="submit" onClick={()=>{registrar()}} >Registrarse</button>
                     </form>
             </div>

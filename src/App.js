@@ -40,6 +40,7 @@ function App() {
       pacientes:{}
     });
     console.log(`Base de datos para ${email} creada`)
+    alert("Usuario creado")
   }
 
   const registrarse = (email, password) => {
@@ -116,8 +117,8 @@ function App() {
       console.log(errorMessage)
       console.log("no iniciaste sesion")
       alert("usuario inexistente")
-    });
-    
+    })
+       
   }
   
   const logout = () =>{
